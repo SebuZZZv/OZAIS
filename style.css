@@ -1,6 +1,6 @@
 body
 {
-background:  url(image/tlo3.png) !important; 
+background:  url(assets/tlo3.png); 
 margin: 0;
 font-family: 'Merriweather', serif;
 background-color: black ;
@@ -122,7 +122,7 @@ margin-left: 50px;
 
 #foto-background
 {
-    background-image: url(image/welcome-bcg.png);
+    background-image: url(assets/welcome-bcg.png);
     width: 100%;
     height: 955px;
     z-index: 1000;
