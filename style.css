@@ -1,0 +1,357 @@
+body
+{
+background:  url(image/tlo3.png) !important; 
+margin: 0;
+font-family: 'Merriweather', serif;
+background-color: black ;
+}
+.main-navigation
+{
+    height: 85px;
+    width: 95%;
+    border-bottom: 2px solid rgb(59, 58, 58);
+    margin: 0 auto;
+    
+}
+.main-navigation .nav
+{
+    float: right;
+    margin-top: 35px;
+    margin-right: 25px;
+}
+.main-navigation .nav a
+{
+    color: gray;
+    font-size: 20px;
+    margin-right: 25px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+}
+.logo
+{
+    float: left;
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 25px;
+    text-align: center;
+}
+.logo h1
+{
+    color: white;
+    font-size: 24px;
+}
+.testnazwa 
+{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    margin: 0 auto; 
+}
+.Someting-bee-here
+{
+    width: 20%;
+    height: 100%;
+}
+.option
+{
+    width: 100%;
+    height: 6%;
+    margin-top: 90px;
+    color: gray;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+.Planet
+{
+    width: 475px;
+    height: 475px;
+    margin: 0 auto;
+    border-radius: 10000px;
+}
+.Description
+{
+    width: 50%;
+    margin: 0 auto; 
+}
+.Description h1
+{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    margin-top: -50px;
+    font-family:'Courier New', Courier, monospace
+}
+.Description h2
+{
+    font-size: 46px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.Description p 
+{
+    color: gold;
+    text-align: center;
+    margin-top: -60px;
+    font-size: 12px;
+    
+}
+.main-stats
+{
+    width: 20%;
+    float: right;
+}
+.main-stats .stats
+{
+    height: 60px;
+margin-top: 50px;
+margin-left: 50px;
+}
+.main-stats .stats span
+{
+    color: gray;
+}
+.main-stats .stats p 
+{
+    color: white;
+    font-size: 20px;
+}
+
+#foto-background
+{
+    background-image: url(image/welcome-bcg.png);
+    width: 100%;
+    height: 955px;
+    z-index: 1000;
+    
+}
+#Lgo
+{
+    font-size: 100px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    animation: focus-in-expand 0.5s 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ 
+  @keyframes focus-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  #introduction
+  {
+    color: gray;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 150px;
+    animation: focus-in-contract-bck 2s 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+ 
+  @keyframes focus-in-contract-bck {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(300px);
+              transform: translateZ(300px);
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(12px);
+              transform: translateZ(12px);
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  
+  #introduction h1
+  {
+    font-size: 80px;
+  }
+.Text-down
+{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px ;
+    animation: tracking-in-contract-bck-bottom 1.5s 2.2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+  @keyframes tracking-in-contract-bck-bottom {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px) translateY(300px);
+              transform: translateZ(400px) translateY(300px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  
+.button
+{
+    
+    margin-top: 150px;
+    text-align: center;
+     animation: bounce-in-fwd 1.7s 2.5s both;
+}
+ 
+  @keyframes bounce-in-fwd {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    38% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    55% {
+      -webkit-transform: scale(0.7);
+              transform: scale(0.7);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    72% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    81% {
+      -webkit-transform: scale(0.84);
+              transform: scale(0.84);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    89% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+    95% {
+      -webkit-transform: scale(0.95);
+              transform: scale(0.95);
+      -webkit-animation-timing-function: ease-in;
+              animation-timing-function: ease-in;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-animation-timing-function: ease-out;
+              animation-timing-function: ease-out;
+    }
+  }
+  
+.button #btn
+{
+    width: 200px;
+    height: 50px;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid black;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    transition: all, .5s ease-in-out;
+}
+#btn:hover
+{
+    content: '';
+  color: black;
+  transform: scale(1.08);
+  box-shadow: none;
+}
+.loader-wrapper {
+width: 100%;
+height: 100%;
+position: absolute;
+top:0;
+left: 0;
+background-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+@media only screen and (max-width: 1000px)  {
+  .main-navigation .nav
+  {
+    width: 80%;
+  }
+ .logo
+ {
+  margin-left: 80px
+ }
+.Planet img {
+ width: 90%;
+ margin-left: 15px;
+ margin-top: 65px;
+}
+.Description h2
+{
+  font-size: 26px;
+}
+.Name h1 {
+  font-size: 55px;
+  margin: 0 auto;
+}
+  .stats span 
+{
+ font-size: 10px;
+}
+.main-stats .stats p
+{
+  font-size: 10px;
+}
+.main-stats .stats
+{
+  margin-top: 20px;
+  margin-left: 15px;
+  height: 9%;
+}
+.Someting-bee-here .option
+{
+  font-size: 10px;
+  margin-top: 50px;
+}  
+  
+.Description p{
+ 
+ margin-top: 20px;
+}
+
+
+}
+
+    
